@@ -8,14 +8,9 @@ use App\Models\cup;
 
 class CupController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
     public function index()
     {
-        //
+        return Cup::all();
     }
 
     /**
